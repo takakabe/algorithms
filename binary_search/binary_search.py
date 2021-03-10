@@ -1,6 +1,3 @@
-import argparse
-import math
-
 class binary_search():
   def __init__(self, array, value):
     self.array = array
