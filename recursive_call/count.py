@@ -1,9 +1,7 @@
-def count_num(num_list,count):
+def count_num(num_list):
   if len(num_list) == 0:
-    return(count)
+    return(0)
   else:
-    num_list.pop()
-    count += 1
-    return(count_num(num_list,count))
+    return(1 + count_num(num_list[1:]))
 
-print(count_num([1,2,3,4,,], 0))
+print(count_num([1,2,3,4,,]))
