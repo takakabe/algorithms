@@ -4,4 +4,4 @@ def count_num(num_list):
   else:
     return(1 + count_num(num_list[1:]))
 
-print(count_num([1,2,3,4,,]))
+print(count_num([1,2,3,4,]))
