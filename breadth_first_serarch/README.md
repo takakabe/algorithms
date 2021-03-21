@@ -1,3 +1,4 @@
+```
 import breadth_first_search
 
 graph = {}
@@ -13,3 +14,4 @@ graph['Augsburg'] = []
 graph['Stuttgart'] = []
 
 breadth_first_search.breadth_first_search(graph, 'Frankfurt', 'Augsburg')
+```
